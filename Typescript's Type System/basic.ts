@@ -253,7 +253,7 @@ nameNumber = ["Jenny", "2348-234-223"];
 
 // Combine this with the destructuring support in Typescript,
 // tuples feel fairly first class despite being array underneath
-
+ const named = "ankit";
 var someItems: [boolean, string, number];
 someItems = [false, "okay", 404];
 var [isTrue, text, code] = someItems;
